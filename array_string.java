@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-class Main {
+class array_string {
 
     public static void main(String[] args) {
 
@@ -9,11 +8,11 @@ class Main {
         System.out.println("Hello Koder");
 
         int n;
-        String[] arr = new String[5];   
+        String[] arr = new String[5];
 
         System.out.println("Enter the value of n");
         n = s.nextInt();
-        s.nextLine(); 
+        s.nextLine();
 
         System.out.println("Enter elements in string array");
         for (int i = 0; i < 5; i++) {
